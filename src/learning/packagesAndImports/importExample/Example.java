@@ -1,4 +1,4 @@
-package importExample;
+package learning.packagesAndImports.importExample;
 
 public class Example {
     private int a;

@@ -1,4 +1,4 @@
-package javaClassStructure.com.example;
+package learning.javaClassStructure.com.example;
 
 public class Main {
     public static void main(String[] args) {

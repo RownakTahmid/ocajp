@@ -1,4 +1,4 @@
-package javaClassStructure.com.example;
+package learning.javaClassStructure.com.example;
 
 public class Person {
     private String firstName;

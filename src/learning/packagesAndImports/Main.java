@@ -1,7 +1,8 @@
-package packagesAndImports;
+package learning.packagesAndImports;
 
-import importExample.*;
-//import importExample.MyClass;
+import learning.namingconflict.ConflictExample;
+import learning.packagesAndImports.importExample.*;
+//import learning.packagesAndImports.importExample.MyClass;
 
 public class Main {
     public static void main(String[] args) {
