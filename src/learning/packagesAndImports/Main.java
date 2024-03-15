@@ -9,5 +9,6 @@ public class Main {
         Example example = new Example(10);
         MyClass myClass = new MyClass();
         System.out.println(example + " " + myClass);
+        learning.Main main = new learning.Main();
     }
 }
