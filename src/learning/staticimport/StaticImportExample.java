@@ -13,5 +13,8 @@ public class StaticImportExample {
         out.println(random());
         Config.printConfig();
         ConflictExample.print();
+        long l = 1_048_129_121L;
+        Long l1 = 10L;
+        Byte b = (byte)127L;
     }
 }
