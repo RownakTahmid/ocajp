@@ -6,7 +6,7 @@ public class PrimitivesCharAndBoolean {
         char ch = '1';
         char uniChar = '\u03A9'; // It is a unicode it is uppercase greek Omega.
         char roman = '\u216C'; // It is roman 50
-        printAnything(ch,uniChar,roman);
+        printAnything(new String[]{"ch","uniChar","roman"},ch,uniChar,roman);
 //        boolean true = true;  true and false is reserved you can't use but
 //        true1, this type is allowed
         boolean true1 = true;

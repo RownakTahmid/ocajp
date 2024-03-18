@@ -1,6 +1,7 @@
 package learning.decimalnumericprimitives;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class DecimalNumericPrimitives {
     public static void main(String[] args) {
@@ -22,7 +23,7 @@ public class DecimalNumericPrimitives {
         double scientific2 = 5.0012E2;
         double scientific3 = 5.0012e02;
         double myDouble3 = 500.12;
-        printAnything(scientific,scientific2,scientific3,myDouble3);
+        printAnything(new String[]{"scientific","scientific2","scientific3","myDouble3"},scientific,scientific2,scientific3,myDouble3);
         double myHexPi = 0xb124e43fp165; // p indicates hexadecimal floating point number
         // whatever is after p, is power of 2  meaning here the hex number is multiplied by 2^189.
         System.out.println("myHexPi: " + myHexPi);
@@ -32,7 +33,11 @@ public class DecimalNumericPrimitives {
      * This can print anything its given
      * @param object can be single to multiple variables
      */
-    public static void printAnything(Object ...object ){
-        System.out.println(Arrays.toString(object));
+    public static void printAnything(String[] names, Object ...object){
+        int i = 0;
+       for(Object o: object){
+           System.out.println(names[i] + " " + o);
+           i++;
+       }
     }
 }
