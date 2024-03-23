@@ -30,9 +30,9 @@ public class DecimalNumericPrimitives {
     }
 
     /**
-     * This can print anything its given
-     *
-     * @param object can be single to multiple variables
+     * This method prints an array of objects, one in each line with their name respectfully.
+     * @param names takes an array of strings where you pass the variable names as an array of Strings
+     * @param object takes the variables that you want to print
      */
     public static void printAnything(String[] names, Object... object) {
         int i = 0;
@@ -41,6 +41,7 @@ public class DecimalNumericPrimitives {
                 System.out.println(names[i] + " " + o);
                 i++;
             }
+            System.out.println();
         }
         else {
             for (String s : names) {
