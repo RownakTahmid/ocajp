@@ -20,7 +20,9 @@ public class SwitchStatements {
         Random random = new Random();
         System.out.println(random);
         int x  = random.nextInt(5) + 'a';
+        final int t = 'a';
         switch (x){
+            case t:
             case 'e':
             case 'c':
                 System.out.println("test");
