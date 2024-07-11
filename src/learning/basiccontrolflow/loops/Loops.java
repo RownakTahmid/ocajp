@@ -19,6 +19,7 @@ public class Loops {
         for (i = 0; i < 5; i++) {
             System.out.println("Now i is: " + i);
         }
+        System.out.println(i);
         //infinite for loops
         /*for(;;){
             System.out.println("infinity");
