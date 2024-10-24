@@ -3,6 +3,7 @@ package learning.javabasics.staticimport;
 import learning.javabasics.namingconflict.ConflictExample;
 
 import static java.lang.Math.*;
+import java.lang.Exception;
 import static java.lang.System.out;
 
 public class StaticImportExample {

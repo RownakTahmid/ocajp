@@ -25,6 +25,9 @@ public class WholeNumericPrimitives {
         for(Integer i : set) {}
         Object[] a = set.toArray();
         StringBuilder s = new StringBuilder();
+        Object o [] = new Object[2];
+        o[1] = 2;
+        System.out.println(o[1]+ " " + o[0]);
 
     }
 }

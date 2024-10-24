@@ -4,19 +4,23 @@ import java.util.Random;
 
 public class SwitchStatements {
     public static void main(String[] args) {
-        int day = 3;
+
+        int day = 78;
         switch (day) {
+            default:
+                System.out.println("wrong day");
             case 1:
                 System.out.println("Saturday");
                 //break;
            // case :
                 System.out.println("Sunday");
                 break; //will print till this
+
             case 3:
                 System.out.println("Monday");
-                if (day == 3) System.out.println("hahaha");
-            default:
-                System.out.println("wrong day");
+//                if (day == 3) System.out.println("hahaha");
+//                break;
+
         }
         Random random = new Random();
         System.out.println(random);
